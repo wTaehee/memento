@@ -1,0 +1,48 @@
+body {
+    background: lavender url('img/lovers-eye.webp') repeat;
+    background-size: 300px;
+    font-family: monospace;
+
+}
+
+h1 {
+    color: white;
+    font-family: kaeru kaeru;
+    font-stretch: expanded;
+    font-size: 300%;
+    -webkit-text-stroke: 0.4px tomato;
+    text-decoration: green wavy underline;
+}
+
+p {
+    color:blueviolet;
+    background-color: lavender;
+    padding: 10px;
+    font-family: monospace;
+}
+
+ul {
+    color:rgba(223, 80, 28, 0.742); 
+    background-color: lavender;
+    font-size: 150%;
+    font-family: kaeru kaeru;
+    margin: 30px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+figcaption{
+    color:rgb(80, 226, 43);
+    font-family: monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.special {
+    background: lavender url('img/nature.webp') no-repeat center;
+    background-size: 100%;
+}

@@ -1,0 +1,19 @@
+body {
+    background: dimgray url('img/dragon-in-love.webp') no-repeat center fixed;
+    background-size: 300px;
+    font-family: monospace;
+}
+
+p {
+    color:blueviolet;
+    background-color: lightseagreen;
+    padding: 50px;
+}
+
+.special {
+    color:rgba(223, 80, 28, 0.742); 
+    background-color: darkorchid;
+    font-size: 150%;
+    font-family: cursive;
+    margin: 30px;
+}
