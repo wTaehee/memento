@@ -76,6 +76,7 @@ img {
   top:30%; 
   left:50%;
   transform:translate(-50%, -50%);
+  pointer-events: none;
 }
 .food {
      position:relative;
@@ -96,7 +97,7 @@ img {
     background-size: 100% 100%;
     margin:0;
     z-index:0;
-    
+    pointer-events: none;
 }
 
 .box {
