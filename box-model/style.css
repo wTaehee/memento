@@ -1,0 +1,29 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    background-color: darkseagreen;
+
+}
+
+.content {
+    background-color: lightpink;
+    color: darkslategray;
+    width:180px;
+    height:180px;
+    padding:30px;
+    border:10px solid aliceblue;
+    margin: 50px auto;
+    font-family: 'Kalam', cursive;
+}
+
+.border {
+    background-color: lightpink;
+    color: darkslategray;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px solid aliceblue;
+    margin:50px;
+}

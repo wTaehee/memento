@@ -1,0 +1,22 @@
+h2 {
+    position:absolute;
+    text-align: center;
+    font-family: 'Monotype Corsiva', cursive;
+    font-size: 100px;
+    background: -webkit-radial-gradient( white,#f15060);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    max-width: 50%;
+    position: relative;
+    text-align: center;
+
+}
+
+.content {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
