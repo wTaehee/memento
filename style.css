@@ -4,7 +4,6 @@ body {
 
 .signage{
     position:fixed;
-    
     z-index: 10;
     max-width: 100%;
     max-height: 100%;

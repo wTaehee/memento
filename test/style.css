@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin:0;
+}
+
+.main-container {
+    background: lightgreen;
+    width:100vw;
+    /* vw vh are % view window*/
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+}
+.upper {
+    background: lightblue;
+    height:25%;
+    display:flex;
+    gap: 20px;
+    padding:20px;
+    
+}
+
+.upper-item {
+    width:33%;
+    height:100%;
+    background: lightgrey;
+}
+.lower {
+    background: lightpink;
+    height: 75%; 
+}
