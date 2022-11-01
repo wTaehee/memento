@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="dark">
+        <!-- first we set up the button that is triggering our javascript -->
+        <!-- note that the element doesn't need to be a <button> to work -->
+        <button onclick="boxToggle()">Click me...</button>
+
+        <!-- the box that we will be altering with our javascript -->
+        <div id="box" class="box active">
+        the box   
+        </div>
+
+        <div id="obj" class="obj"></div>
+
+        <script>
+         function boxToggle() {
+         var box = document.getElementById("box");
+         var obj = document.getElementById("obj");
+
+         box.classList.toggle("active");
+         obj.classList.toggle("spin");
+         document.body.classList.remove ("dark");
+
+          }
+         </script>
+
+    </body>
+    
+    </html>
