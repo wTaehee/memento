@@ -19,7 +19,7 @@ body {
     
 }
 h1 {
-    display: flex;
+    
     justify-content: center;
     font-family: 'Monotype Corsiva', cursive;
     background: -webkit-radial-gradient( white,#d18179);
@@ -27,14 +27,14 @@ h1 {
     color:white;
     font-size: 3rem;
     text-align: center;
-    /* box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
+     box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
       background:linear-gradient(to bottom, #f0ffde 8%, #d18179 75%);
       background-color:#defabe;
       
       border-radius:50vh;
       display:inline-block;
       padding:1.2vh 1.2vh;
-      text-decoration:none; */
+      text-decoration:none; 
 
 }
 
